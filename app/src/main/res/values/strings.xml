@@ -1,12 +1,24 @@
 <resources>
-    <string name="app_name">PMS_RDSO</string>
+    <string name="app_name">RPMA</string>
     <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
+    <string name="prompt_email">LoginID</string>
     <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_username">Not a valid login ID</string>
+    <string name="invalid_password">Not a valid password</string>
     <string name="login_failed">"Login failed"</string>
+
+    <!-- Category name for High Priority [CHAR LIMIT=20] -->
+    <string name="category_no_priority">No Priority</string>
+
+    <!-- Category name for Low Priority [CHAR LIMIT=20] -->
+    <string name="category_low_priority">Low Priority</string>
+
+    <!-- Category name for High Priority [CHAR LIMIT=20] -->
+    <string name="category_high_priority">High Priority</string>
+
+    <!-- Category name for Medium Priority [CHAR LIMIT=20] -->
+    <string name="category_medium_priority">Medium Priority</string>
 </resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tan_background"
+    tools:context=".projectpriority">
+
+    <TextView
+        android:id="@+id/high_priority"
+        style="@style/CategoryPriorityStyle"
+        android:background="@color/category_high_priority"
+        android:text="@string/category_high_priority"
+        />
+
+    <TextView
+        android:id="@+id/medium_priority"
+        style="@style/CategoryPriorityStyle"
+        android:background="@color/category_medium_priority"
+        android:text="@string/category_medium_priority" />
+
+    <TextView
+        android:id="@+id/low_priority"
+        style="@style/CategoryPriorityStyle"
+        android:background="@color/category_low_priority"
+        android:text="@string/category_low_priority" />
+
+    <TextView
+        android:id="@+id/no_priority"
+        style="@style/CategoryPriorityStyle"
+        android:background="@color/category_no_priority"
+        android:text="@string/category_no_priority" />
+
+</LinearLayout>

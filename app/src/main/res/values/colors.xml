@@ -3,4 +3,25 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#4A312A</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the High Priority category -->
+    <color name="category_high_priority">#FD8E09</color>
+
+    <!-- Background color for the Medium Priority category -->
+    <color name="category_medium_priority">#379237</color>
+
+    <!-- Background color for the Low Priority category -->
+    <color name="category_low_priority">#8800A0</color>
+
+    <!-- Background color for the No Priority category -->
+    <color name="category_no_priority">#16AFCA</color>
+
 </resources>
