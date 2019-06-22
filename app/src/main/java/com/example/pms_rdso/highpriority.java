@@ -2,7 +2,6 @@ package com.example.pms_rdso;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -12,25 +11,30 @@ public class highpriority extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_highpriority);
+        setContentView(R.layout.project_list);
 
-        ArrayList<String> projects= new ArrayList<String>();
-        projects.add("Project 1");
-        projects.add("Project 2");
-        projects.add("Project 3");
-        projects.add("Project 4");
-        projects.add("Project 5");
-        projects.add("Project 6");
-        projects.add("Project 7");
-        projects.add("Project 8");
-        projects.add("Project 9");
-        projects.add("Project 10");
+        //Create a list of projects
 
-        ArrayAdapter<String> projectAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, projects);
+        ArrayList<Project> projects= new ArrayList<Project>();
+        projects.add(new Project("<Project name>"));
+        projects.add(new Project("<Project name>"));
+        projects.add(new Project("<Project name>"));
+        projects.add(new Project("<Project name>"));
+        projects.add(new Project("<Project name>"));
+        projects.add(new Project("<Project name>"));
+        projects.add(new Project("<Project name>"));
+        projects.add(new Project("<Project name>"));
+        projects.add(new Project("<Project name>"));
+        projects.add(new Project("<Project name>"));
+        projects.add(new Project("<Project name>"));
+        projects.add(new Project("<Project name>"));
+        projects.add(new Project("<Project name>"));
 
-        ListView listview = (ListView) findViewById(R.id.high_list);
+        ProjectAdapter adapter = new ProjectAdapter(this, projects, R.color.category_high_priority );
 
-        listview.setAdapter(projectAdapter);
+        ListView listView = (ListView) findViewById(R.id.list);
+        listView.setAdapter(adapter);
+
 
 
     }
