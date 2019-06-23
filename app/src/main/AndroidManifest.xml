@@ -9,22 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.login.LoginActivity"></activity>
+        <activity android:name=".project_detail"></activity>
+        <activity android:name=".ui.login.LoginActivity" />
         <activity
             android:name=".nopriority"
-            android:label="No Priority"/>
+            android:label="No Priority" />
         <activity
             android:name=".lowpriority"
-            android:label="Low Priority"/>
+            android:label="Low Priority" />
         <activity
             android:name=".mediumpriority"
-            android:label="Medium Priority"/>
+            android:label="Medium Priority" />
         <activity
             android:name=".highpriority"
-            android:label="High Priority"/>
+            android:label="High Priority" />
         <activity
             android:name=".projectpriority"
-            android:label="Project Priority"/>
+            android:label="Project Priority" />
         <activity
             android:name=".login_basic"
             android:label="Login">
