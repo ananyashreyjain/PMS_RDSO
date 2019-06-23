@@ -3,14 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cardview_light_background"
-    tools:context=".project_detail">
+    tools:context=".CreateNewProject">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="This page will soon contain \n details of the project"
+        android:text="This page will soon \n help you create a new project"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@android:color/black"
         android:textStyle="italic"

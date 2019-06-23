@@ -39,6 +39,21 @@ public class highpriority extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
 
+        // Find the View that shows the Create New project
+        TextView projectNameTextView = (TextView) findViewById(R.id.create_project_text_view);
+
+        // Set a click listener on that View
+        projectNameTextView.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the High Priority category is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link NumbersActivity}
+                Intent projectNameIntent = new Intent(highpriority.this, CreateNewProject.class);
+                // Start the new activity
+                startActivity(projectNameIntent);
+            }
+        });
+
     listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

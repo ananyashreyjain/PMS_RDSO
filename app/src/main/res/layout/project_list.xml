@@ -18,7 +18,8 @@
         android:background="@color/cardview_light_background"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@android:color/black"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:id="@+id/create_project_text_view"/>
 
     <ListView
         android:layout_weight="1"
