@@ -13,15 +13,15 @@
     <color name="tan_background">#FFF7DA</color>
 
     <!-- Background color for the High Priority category -->
-    <color name="category_high_priority">#FD8E09</color>
+    <color name="category_high_priority">#ff3333</color>
 
     <!-- Background color for the Medium Priority category -->
-    <color name="category_medium_priority">#379237</color>
+    <color name="category_medium_priority">#ff9600</color>
 
     <!-- Background color for the Low Priority category -->
-    <color name="category_low_priority">#8800A0</color>
+    <color name="category_low_priority">#00b300</color>
 
     <!-- Background color for the No Priority category -->
-    <color name="category_no_priority">#16AFCA</color>
+    <color name="category_no_priority">#2facb7</color>
 
 </resources>
