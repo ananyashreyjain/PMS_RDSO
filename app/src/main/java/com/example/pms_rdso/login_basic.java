@@ -27,6 +27,8 @@ public class login_basic extends AppCompatActivity {
                 // Create a new intent to open the {@link NumbersActivity}
                 Intent loginIntent = new Intent(login_basic.this, projectpriority.class);
                 // Start the new activity
+                internet Data=new internet();
+                String log=Data.start();
                 startActivity(loginIntent);
             }
         });
